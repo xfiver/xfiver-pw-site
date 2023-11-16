@@ -1,0 +1,247 @@
+html,body {
+    overflow: hidden;
+    background: rgb(30,30,30);
+    background: linear-gradient(120deg, rgba(30,30,30,1) 0%, rgba(20,20,20,1) 100% /*rgba(30,30,30,1) 0%, rgba(20,20,20,1) 100%*/);
+}
+
+#wrapper { width: 980px; overflow: show; }
+::-webkit-scrollbar {width: 0;}
+
+.seller {
+    font-family: Consolas, Inconsolata, monospace;
+    color: #444;
+
+    cursor: text;
+}
+
+.holder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.upper {
+    position: fixed;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.infocenter {
+    position:fixed;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.infoleft {
+    position:fixed;
+    top: 43%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.inforight {
+    position:fixed;
+    top: 43%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+
+}
+
+.infotext {
+    color: ghostwhite;
+	font-family: Consolas, Inconsolata, monospace;
+    font-size: 14px;
+    margin: 4px;
+}
+
+.infotext span {
+    color: #D77C7C;
+}
+
+.idealcenter {
+    position: fixed;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bottom {
+    position: fixed;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.textiboi {
+	text-align: center;
+	color: indianred;
+	font-family: Consolas, Inconsolata, monospace;
+    font-size: 18px;
+}
+
+
+
+.textiboi1 {
+	text-align: center;
+	color: indianred;
+	font-family: Consolas, Inconsolata, monospace;
+    }
+
+.textiboi1:hover {
+	color: black;
+}
+
+
+.button {
+    margin: -1px;
+    margin-top: 11px;
+    padding: 4px;
+    background-color: #000;
+    display: inline-block;
+    border: 1px solid indianred;
+    border-radius: 5px;
+    font-size: 16px;
+    
+}
+
+.buttonEnabled {
+    margin: -1px;
+    margin-top: 11px;
+    padding: 4px;
+    display: inline-block;
+    border: 1px solid indianred;
+    border-radius: 5px;
+    font-size: 16px;
+    color: black;
+    background: indianred;
+}
+
+.buttonEnabled:hover {
+    color: black;
+    }
+
+.button:hover {
+    color: black;
+    background: indianred;
+    border: 1px solid indianred;
+    
+}
+
+.header {
+    text-align: center;
+    color: lawngreen;
+    font-family: Consolas, Inconsolata, monospace;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 35px;
+    color: ghostwhite;
+}
+
+.hoverr:hover a 
+{
+	color: white;
+}
+
+.header:hover {
+    text-align: center;
+    color: white;
+    font-family: Consolas, Inconsolata, monospace;
+}
+
+.container:hover .seller {
+    color: white;
+}
+
+.container:hover a {
+    color: white;
+}
+
+.a {
+    text-align: center;
+    color: white;
+    font-family: Consolas, Inconsolata, monospace;
+}
+
+.header:hover a {
+    text-align: center;
+    color: white;
+    font-family: Consolas, Inconsolata, monospace;
+}
+
+.icon {
+    color: yellow;
+}
+
+.icon i {
+    font-size: 80px;
+}
+
+.container {
+    text-align: center;
+    margin: 5px 20px;
+
+    float: left;
+}
+
+a {
+    color: ghostwhite;
+}
+
+h1 {
+    padding: 1px;
+    margin: 0px;
+}
+
+p {
+    /*padding: 0px;*/
+    margin: 0px;
+}
+
+.container:hover .icon {
+    color: var(--icon-color);
+    font-size: 20px;
+}
+
+.container:hover .seller {
+    color: white;
+}
+
+.container:hover a {
+    color: white;
+}
+
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+#clock-container {
+    position: fixed;
+    bottom: 2%;
+    left: 2.4%;
+}
+
+
+
+.clock {
+    color: #444;
+}
+
+.clock:hover {
+    color: ghostwhite;
+}
+
+
+
